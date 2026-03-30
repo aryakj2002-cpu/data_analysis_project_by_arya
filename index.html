@@ -5,7 +5,6 @@
   <title>Data Analysis Project | Arya</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 
   <style>
@@ -18,13 +17,13 @@
 
     header {
       background: linear-gradient(90deg, #1e3a8a, #9333ea);
-      padding: 20px;
+      padding: 25px;
       text-align: center;
     }
 
     header h1 {
       margin: 0;
-      font-size: 28px;
+      font-size: 30px;
     }
 
     section {
@@ -41,9 +40,14 @@
     .card {
       background: #1e293b;
       padding: 20px;
-      border-radius: 10px;
-      margin-bottom: 20px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+      border-radius: 12px;
+      margin-bottom: 25px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.4);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.02);
     }
 
     .btn {
@@ -53,12 +57,18 @@
       background: #22c55e;
       color: #000;
       text-decoration: none;
-      border-radius: 5px;
+      border-radius: 6px;
       font-weight: bold;
     }
 
     .btn:hover {
       background: #16a34a;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 10px;
+      margin-top: 10px;
     }
 
     footer {
@@ -74,19 +84,22 @@
 <body>
 
 <header>
-  <h1>📊 Data Analysis Project</h1>
+  <h1>Data Analysis Project</h1>
   <p>By Arya</p>
 </header>
 
 <section>
+
+  <!-- Overview -->
   <div class="card">
-    <h2>📌 Project Overview</h2>
+    <h2> Project Overview</h2>
     <p>
       This project analyzes sales data to identify revenue trends, profit performance,
-      and regional sales distribution using Python and data visualization techniques.
+      and regional sales distribution using Python, SQL, and visualization tools.
     </p>
   </div>
 
+  <!-- Tools -->
   <div class="card">
     <h2>🛠 Tools Used</h2>
     <ul>
@@ -97,8 +110,9 @@
     </ul>
   </div>
 
+  <!-- Insights -->
   <div class="card">
-    <h2>📊 Key Insights</h2>
+    <h2> Key Insights</h2>
     <ul>
       <li>West region generates the highest profit.</li>
       <li>Electronics category contributes highest revenue.</li>
@@ -108,23 +122,44 @@
     </ul>
   </div>
 
+  <!-- Screenshot Section -->
   <div class="card">
-    <h2>📁 Project Files</h2>
+    <h2> Dashboard Preview</h2>
+    <p>Below is the visualization/dashboard created from the dataset:</p>
 
-    <a href="sales_data.csv" class="btn">📄 View Dataset</a>
-    <a href="sales_data_analysis.py" class="btn">🐍 View Python Code</a>
-    <a href="database_setup.sql" class="btn">🗄 View SQL File</a>
-    <a href="Project_Dashboard.pbit" class="btn">📊 Power BI File</a>
+    <!-- IMPORTANT: Upload image to repo and keep same name -->
+    <img src="dashboard.png" alt="Dashboard Screenshot">
+  </div>
+
+  <!-- Project Files -->
+  <div class="card">
+    <h2> Project Files</h2>
+
+    <a href="sales_data.csv" class="btn">Dataset</a>
+    <a href="sales_data_analysis.py" class="btn"> Python Code</a>
+    <a href="database_setup.sql" class="btn"> SQL File</a>
+    <a href="Project_Dashboard.pbit" class="btn">Power BI File</a>
 
   </div>
 
+  <!-- Conclusion -->
   <div class="card">
-    <h2>🎯 Conclusion</h2>
+    <h2> Conclusion</h2>
     <p>
-      The project highlights key business insights and helps in decision-making
-      by identifying profitable regions and products.
+      The analysis shows that focusing on high-margin fashion products and expanding
+      in top-performing regions like the West can significantly improve profitability.
     </p>
   </div>
+
+  <!-- About -->
+  <div class="card">
+    <h2>About Me</h2>
+    <p>
+      I am an aspiring Data Analyst skilled in Python, SQL, and data visualization.
+      I enjoy transforming raw data into meaningful insights that support business decisions.
+    </p>
+  </div>
+
 </section>
 
 <footer>
