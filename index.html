@@ -1,13 +1,135 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Data Analysis Project</title>
-</head>
-<body>
-  <h1>My Data Analysis Project</h1>
-  <p>Welcome to my project!</p>
+  <meta charset="UTF-8">
+  <title>Data Analysis Project | Arya</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <a href="analysis.ipynb">View Notebook</a><br>
-  <a href="data.csv">View Dataset</a>
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #0f172a;
+      color: #fff;
+    }
+
+    header {
+      background: linear-gradient(90deg, #1e3a8a, #9333ea);
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #38bdf8;
+      margin-bottom: 15px;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 15px;
+      margin: 10px 5px 0 0;
+      background: #22c55e;
+      color: #000;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      background: #16a34a;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #020617;
+      font-size: 14px;
+      color: #aaa;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>📊 Data Analysis Project</h1>
+  <p>By Arya</p>
+</header>
+
+<section>
+  <div class="card">
+    <h2>📌 Project Overview</h2>
+    <p>
+      This project analyzes sales data to identify revenue trends, profit performance,
+      and regional sales distribution using Python and data visualization techniques.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>🛠 Tools Used</h2>
+    <ul>
+      <li>Python (Pandas, Matplotlib)</li>
+      <li>CSV Dataset</li>
+      <li>Power BI Dashboard</li>
+      <li>SQL</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>📊 Key Insights</h2>
+    <ul>
+      <li>West region generates the highest profit.</li>
+      <li>Electronics category contributes highest revenue.</li>
+      <li>Fashion category has the highest profit margin.</li>
+      <li>High revenue products don’t always give high profit.</li>
+      <li>Repeat customers increase total sales.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>📁 Project Files</h2>
+
+    <a href="sales_data.csv" class="btn">📄 View Dataset</a>
+    <a href="sales_data_analysis.py" class="btn">🐍 View Python Code</a>
+    <a href="database_setup.sql" class="btn">🗄 View SQL File</a>
+    <a href="Project_Dashboard.pbit" class="btn">📊 Power BI File</a>
+
+  </div>
+
+  <div class="card">
+    <h2>🎯 Conclusion</h2>
+    <p>
+      The project highlights key business insights and helps in decision-making
+      by identifying profitable regions and products.
+    </p>
+  </div>
+</section>
+
+<footer>
+  © 2026 Arya | Data Analyst Portfolio
+</footer>
+
 </body>
 </html>
