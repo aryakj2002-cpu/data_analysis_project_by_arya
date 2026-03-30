@@ -59,12 +59,13 @@ IGNORE 1 ROWS;
 ```
 ## 📊 Key Insights
 
-1. The West region generates the highest revenue.
-2. Technology category has the highest profit margin.
-3. Some transactions result in negative profit.
-4. Sales show an increasing trend over time.
-5. High quantity sales do not always mean high profit.
+1. West region generates the highest overall profit and is the top-performing region.
+2. Electronics category contributes the highest revenue due to high-value products like laptops and mobiles.
+3. Fashion category has the highest profit margins (up to 40%+), making it highly profitable.
+4. High revenue products do not always yield high profit margins (e.g., laptops vs T-shirts).
+5. Repeat customers contribute significantly to overall sales performance.
+6. Accessories category shows stable but moderate profit compared to other categories.
 
 ## 🎯 Conclusion
 
-Focus on high-margin products and optimize pricing strategy to improve profitability.
+To maximize profitability, focus on high-margin fashion products while maintaining strong sales in electronics. Target repeat customers and expand in high-performing regions like the West.
