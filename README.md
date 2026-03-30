@@ -55,3 +55,16 @@ LOAD DATA LOCAL INFILE 'sales_data.csv'
 INTO TABLE sales
 FIELDS TERMINATED BY ','
 IGNORE 1 ROWS;
+
+```
+## 📊 Key Insights
+
+1. The West region generates the highest revenue.
+2. Technology category has the highest profit margin.
+3. Some transactions result in negative profit.
+4. Sales show an increasing trend over time.
+5. High quantity sales do not always mean high profit.
+
+## 🎯 Conclusion
+
+Focus on high-margin products and optimize pricing strategy to improve profitability.
