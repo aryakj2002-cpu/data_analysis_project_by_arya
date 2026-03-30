@@ -15,7 +15,7 @@ This project analyzes sales data to extract meaningful insights such as revenue 
 
 ##  Project Files
 - `sales_data.csv` → Dataset used for analysis  
-- `sales_analysis.py` → Python script for KPI calculation  
+- `sales_data_analysis.py` → Python script for KPI calculation  
 - `Project_Dashboard.pbix` / `.pbit` → Power BI dashboard  
 - `database_setup.sql` → SQL script for database creation and analysis  
 
