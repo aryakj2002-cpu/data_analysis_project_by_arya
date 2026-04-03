@@ -57,7 +57,7 @@ FIELDS TERMINATED BY ','
 IGNORE 1 ROWS;
 
 ```
-## 📊 Key Insights
+##  Key Insights
 
 1. West region generates the highest overall profit and is the top-performing region.
 2. Electronics category contributes the highest revenue due to high-value products like laptops and mobiles.
@@ -66,6 +66,6 @@ IGNORE 1 ROWS;
 5. Repeat customers contribute significantly to overall sales performance.
 6. Accessories category shows stable but moderate profit compared to other categories.
 
-## 🎯 Conclusion
+##  Conclusion
 
 To maximize profitability, focus on high-margin fashion products while maintaining strong sales in electronics. Target repeat customers and expand in high-performing regions like the West.
